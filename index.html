@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
     <!-- Szükséges elemek -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta charset="UTF-8">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Csokoládé</title>
 
 </head>
 <body>
@@ -70,43 +72,45 @@
             </div>
         </nav>
         <!-- Bevezető -->
-        <p>A csokoládé egy kakaóbabból készített édesség. Elterjedten vékony lapokban, bonbonként vagy italként lehet fogyasztani. A szó a csokoládé 16. század óta használt navatl indián nevéhez, a xocolātlhoz{ejtsd: sokolátl} hasonló hangzású névként került a világ legtöbb nyelvébe, a magyarba is. A csokoládé elsősorban az agyra hat pozitívan, például endorfint szabadít fel, ami boldogság érzettel jár. Emellett az agy működését is serkenti, frissen tartja és még a vér- és szívrendszerre is jótékonyan hat. Egy kis csokoládé elfogyasztása megnyugtatja az embert, kellemes hangulatba ringatja.</p>
+        <p id="bevezető">A csokoládé egy kakaóbabból készített édesség. Elterjedten vékony lapokban, bonbonként vagy italként lehet fogyasztani. A szó a csokoládé 16. század óta használt navatl indián nevéhez, a xocolātlhoz{ejtsd: sokolátl} hasonló hangzású névként került a világ legtöbb nyelvébe, a magyarba is. A csokoládé elsősorban az agyra hat pozitívan, például endorfint szabadít fel, ami boldogság érzettel jár. Emellett az agy működését is serkenti, frissen tartja és még a vér- és szívrendszerre is jótékonyan hat. Egy kis csokoládé elfogyasztása megnyugtatja az embert, kellemes hangulatba ringatja.</p>
         <!-- Története és összetétele -->
-        <section id="tortenetesosszetetel">
-            <div class="row">
-                <div class="col-12 col-md-6 tortenet">
-                    <h1>Története</h1>
-                    <p>Amerikában az aztékok már jóval az európai hódítók elōtt is itták a csokoládét. 1519-ben, amikor a spanyolok a mai Mexikó területére érkeztek, Montezuma xocolātllal kínálta Cortést. A maják birodalmában is ismert és fontos volt: a kakaóbabot más dél-amerikai kultúrákhoz hasonlóan fizetōeszközként (is) használták. Maga a kakaó neve is utal a kereskedelemre; a „cacau” eredetileg egy ige, jelentése: venni, cserélni, vásárolni. A kakaóbab a szertartásokhoz is esszenciális volt.</p>
-                    <p>Megpörkölték, ledarálták, vízzel habosra rázták (nagy zsírtartalma miatt nehezen oldódott), majd megitták a keserű italt, melynek eredeti neve xocolātl. Amikor a majákat legyōzték az aztékok, a hadisarcot kakaóbabban kellett kifizetniük. Az aztékok már ízesítették a keserű italt fahéjjal, ánizzsal, vaníliával, kukoricaliszttel, és a legfontosabb, hogy elkészítése során erjesztették is. Ennek köszönhetōen sokkal lágyabb állagot és kevésbé keserű ízt értek el.</p>
-                    <p>Legendájuk alapján a Tollas Kígyóistentōl, Quetzalquetl-tōl kapták az istenek italát és eledelét, a csokoládét és a kukoricalisztet. A Tollas Kígyó elhagyta ōket, de meghagyta, hogy visszatér még. Ezért, amikor a szakállas Cortés partra szállt, ōt hitték a visszatérō Tollas Kígyónak. Uralkodójukhoz, Montezumához vezették, aki díszes aranykehelyben felszolgáltatta neki az isteni italt. Cortés észrevette a benne rejlō értéket, és lefoglalta az ōsi ültetvényeket. Vérszemet kapott, magának kívánta az összes azték kincset, lemészárolta az aztékokat. Egy forrás szerint az ōslakókat saját italuk segítségével gyōzték le: „Egyetlen pohárnyi belōle egy egész napra felfrissíti a katonát” – írta Cortés. A spanyol konkvisztádor hazájába visszautazván magával vitte a kakaóbabok titkát. Spanyolország tehát a csokoládé világkörüli útjának elsō megállója. A 17. századig az ország határain belül maradt, Európában nem terjedt el. Persze eleinte maguk a spanyolok se fogyasztották szívesen a keserű italt, először a mexikói spanyol apácák kezdték el ízesíteni szerecsendióval, fahéjjal, cukorral.</p>
-                </div>
-            </div>
-        </section>
-        <section id="tortenetesosszetetel">
-            <div class="row">
-                <div class="col-12 col-md-6 doboz">
-                    <h1>Összetétel</h1>
-                    <p>A csokoládé olyan termék, amely kakaótermékekbōl (kakaómassza, kakaóvaj, esetleg kakaópor) és cukrokból készül, legalább 35% összes kakaó-szárazanyagot tartalmaz, ebből legalább 18% a kakaóvaj és legalább 14% a zsírmentes kakaó-szárazanyag.</p>
-					<p>Az étcsokoládé csak kakaómasszát és -vajat, valamint cukrot tartalmaz, a tejcsokihoz adnak tejport is. A fehér csoki alig nevezhetō csokoládénak: nem is tartalmaz kakaómasszát; innen a jellegzetes elefántcsontszín. A csokoládénak tulajdonított temérdek jótékony hatás csak a jó minōségű étcsokoládéra jellemzō.</p>
-					<p>A csokoládé körülbelül 300 ismert vegyületet tartalmaz, többek között serkentőszereket, például metil-xantinokat: koffeint és teobromint. Élettani szempontból fontos komponens a hisztamin, a szerotonin, a triptofán, a feniletilamin, a tiramin és a magnézium.</p>
-                    <figure>
-                        <img src="img/osszetetel.png" alt="osszetetel" title="Összetétel" class="img-thumbnail border border-dark">
-                    </figure>
-                </div>
-            </div>
-        </section>
+        <div class="row">
+            <div class="col-md-7">
+            <section id="tortenetesosszetetel">
+
+                        <h1>Története</h1>
+                        <p>Amerikában az aztékok már jóval az európai hódítók elōtt is itták a csokoládét. 1519-ben, amikor a spanyolok a mai Mexikó területére érkeztek, Montezuma xocolātllal kínálta Cortést. A maják birodalmában is ismert és fontos volt: a kakaóbabot más dél-amerikai kultúrákhoz hasonlóan fizetōeszközként (is) használták. Maga a kakaó neve is utal a kereskedelemre; a „cacau” eredetileg egy ige, jelentése: venni, cserélni, vásárolni. A kakaóbab a szertartásokhoz is esszenciális volt.</p>
+                        <p>Megpörkölték, ledarálták, vízzel habosra rázták (nagy zsírtartalma miatt nehezen oldódott), majd megitták a keserű italt, melynek eredeti neve xocolātl. Amikor a majákat legyōzték az aztékok, a hadisarcot kakaóbabban kellett kifizetniük. Az aztékok már ízesítették a keserű italt fahéjjal, ánizzsal, vaníliával, kukoricaliszttel, és a legfontosabb, hogy elkészítése során erjesztették is. Ennek köszönhetōen sokkal lágyabb állagot és kevésbé keserű ízt értek el.</p>
+                        <p>Legendájuk alapján a Tollas Kígyóistentōl, Quetzalquetl-tōl kapták az istenek italát és eledelét, a csokoládét és a kukoricalisztet. A Tollas Kígyó elhagyta ōket, de meghagyta, hogy visszatér még. Ezért, amikor a szakállas Cortés partra szállt, ōt hitték a visszatérō Tollas Kígyónak. Uralkodójukhoz, Montezumához vezették, aki díszes aranykehelyben felszolgáltatta neki az isteni italt. Cortés észrevette a benne rejlō értéket, és lefoglalta az ōsi ültetvényeket. Vérszemet kapott, magának kívánta az összes azték kincset, lemészárolta az aztékokat. Egy forrás szerint az ōslakókat saját italuk segítségével gyōzték le: „Egyetlen pohárnyi belōle egy egész napra felfrissíti a katonát” – írta Cortés. A spanyol konkvisztádor hazájába visszautazván magával vitte a kakaóbabok titkát. Spanyolország tehát a csokoládé világkörüli útjának elsō megállója. A 17. századig az ország határain belül maradt, Európában nem terjedt el. Persze eleinte maguk a spanyolok se fogyasztották szívesen a keserű italt, először a mexikói spanyol apácák kezdték el ízesíteni szerecsendióval, fahéjjal, cukorral.</p>
+
+            </section>
+        </div>
+<div class="col-md-5">
+            <section id="tortenetesosszetetel" class="doboz">
+
+                        <h1>Összetétel</h1>
+                        <p>A csokoládé olyan termék, amely kakaótermékekbōl (kakaómassza, kakaóvaj, esetleg kakaópor) és cukrokból készül, legalább 35% összes kakaó-szárazanyagot tartalmaz, ebből legalább 18% a kakaóvaj és legalább 14% a zsírmentes kakaó-szárazanyag.</p>
+                        <p>Az étcsokoládé csak kakaómasszát és -vajat, valamint cukrot tartalmaz, a tejcsokihoz adnak tejport is. A fehér csoki alig nevezhetō csokoládénak: nem is tartalmaz kakaómasszát; innen a jellegzetes elefántcsontszín. A csokoládénak tulajdonított temérdek jótékony hatás csak a jó minōségű étcsokoládéra jellemzō.</p>
+                        <p>A csokoládé körülbelül 300 ismert vegyületet tartalmaz, többek között serkentőszereket, például metil-xantinokat: koffeint és teobromint. Élettani szempontból fontos komponens a hisztamin, a szerotonin, a triptofán, a feniletilamin, a tiramin és a magnézium.</p>
+                        <figure>
+                            <img src="img/osszetetel.png" alt="osszetetel" title="Összetétel" class="img-thumbnail border border-dark">
+                        </figure>
+            </section>
+</div>
+        </div>
+        <br>
         <!-- Készítése -->
-        <section>
+        <section id="keszitese">
             <div class="row">
                 <div class="col-12 col-md-12">
-                    <p>Csokoládékészítés napjainkban</p>
+                    <h1>Csokoládékészítés napjainkban</h1>
                     <p>Már a toltékok is rájöttek, hogy a kakaóbabok íze más, hogyha a fán érik meg, mint ha éretlenül lepottyan a fáról, és beágyazódik a nedves, meleg, sáros talajba, s ott megerjed. Erjedés után kevésbé lesz keserű, míg jellegzetes aromáját megōrzi. Az erjedés során 5-10 nap alatt bontakozik ki a kakaó igazi ízvilága. Miután erre rájöttek, megváltoztak a szüretelési szokások is: a gyümölcsöt machetével éretlenül levágták a fáról, belenyomkodták a földbe, majd kivárták az erjedési idōt, majd lefejtették a gyümölcs húsát a magról és megszárították.</p>
                     <p>A kiszáradt magokat megpörkölték. A magokról még nem tudták eltávolítani az összes gyümölcshús-maradványt, ezért táncos mozdulatokkal addig tapostak rajta, amíg minden maradvány le nem jött róla. Ezután újra megpörkölték, meghámozták, összezúzták mozsárban, és az így létrejött masszából öklömnyi golyókat formáztak. Az elkészült golyókból készítettek italt, elōször összezúzták, majd hideg vízzel habosra keverték, chilivel és vaníliával ízesítették. Ez a kakaóital laktató és tápláló volt.</p>
                     <figure>
                         <img src="img/csokifa.jpg" id="csokifa" alt="csokifa" title="Csoki fa" class="img-thumbnail border border-dark">
                     </figure>
                     <p>A spanyolok a dél-amerikai népektōl eltérōen a kakaót forró vízzel öntötték fel és habbá vert tojásfehérjét kevertek hozzá. Elōször a mexikói spanyol apácák kezdték koronggá és táblává formálni, mert így jobban kezelhetō, tárolható és könnyebben adagolható. A szerzetesek mind jobb és jobb csokoládérecepteket kísérleteztek ki.</p>
-                    <p>A mexikói csokoládékészítés művelete igazán sok türelmet és kitartást igényel, mert a szilárd, száraz kakaóbabot addig kell zúzni, amíg ki nem válik belōle annyi zsiradék, hogy a porból massza képzōdhessen. A hagyományos elōállítás során 1 kilogramm kakaóhoz <strong>2 kilogramm cukrot</strong>, <strong>10 dekagramm fahéjat</strong> és <strong>mandulát</strong> adnak. A fahéjat és a mandulát együtt ōrlik, aztán egyenletesen adják hozzá a cukrot.</p>
+                    <p>A mexikói csokoládékészítés művelete igazán sok türelmet és kitartást igényel, mert a szilárd, száraz kakaóbabot addig kell zúzni, amíg ki nem válik belōle annyi zsiradék, hogy a porból massza képzōdhessen. A hagyományos elōállítás során <span>1 kilogramm kakaóhoz</span> <strong>2 kilogramm cukrot</strong>, <strong>10 dekagramm fahéjat</strong> és <strong>mandulát</strong> adnak. A fahéjat és a mandulát együtt ōrlik, aztán egyenletesen adják hozzá a cukrot.</p>
                 </div>
             </div>
         </section>
@@ -125,7 +129,7 @@
                 </div>
                 <div class="col-sm-12 col-xl-4 alulra">
                     <div class="doboz">
-                        <h2>Fehér csokoládé</h2>
+                        <h2><a href="https://hu.wikipedia.org/wiki/Feh%C3%A9r_csokol%C3%A1d%C3%A9" target="_blank">Fehér csokoládé</a></h2>
                         <figure>
                             <img src="img/fehercsokolade.jpg" alt="Fehér csokoládé" title="Fehér csokoládé" class="img-thumbnail border border-dark">
                         </figure>
@@ -136,7 +140,7 @@
                     <div class="doboz">
                         <h2>Tejcsokoládé</h2>
                         <figure>
-                            
+                            <img src="./img/tejcsokolade.jpg" alt="Tejcsokoladé" class="img-thumbnail border border-dark" title="Tejcsokoladé">
                         </figure>
                         <p>A tejcsokoládé kakaótartalma legalább 25%, tejport minimum 14%-ban tartalmaz, ezen kívül kakaóvajat és cukrot is. A tejcsokoládé születése Henri Nestlének köszönhetō, aki rájött, hogyan lehet a tejet sűríteni, így megvalósulhatott a régóta kísérletezett tejcsokoládé. A legnagyobb mennyiségben fogyasztott tejcsokoládé mutatja meg egy ország ízlését csokoládé fronton.</p>
                     </div>
@@ -152,7 +156,7 @@
                 </div>
                 <div class="col-sm-12 col-xl-8 alulra text-center">
                     <div class="doboz">
-                        <table class="table">
+                        <table class="table table-light table-striped">
                             <caption><h2>Ásványianyag-tartalom 100 grammban</h2></caption>
                             <tr>
                                 <th>Ásványi anyag</th>
@@ -193,6 +197,11 @@
                                 <td>Réz</td>
                                 <td>3,9 mg</td>
                                 <td>0,3 mg</td>
+                            </tr>
+                            <tr>
+                                <td>Cink</td>
+                                <td>6,9mg</td>
+                                <td>0,2mg</td>
                             </tr>
                         </table>
                     </div>

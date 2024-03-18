@@ -90,3 +90,37 @@ span
     user-select: none;
     touch-action: manipulation;
 }
+
+/* #keszitese{
+
+} */ 
+/* ezt üresen??????? hibát fog dobni a validator ha nem kommentelem ki */
+
+
+
+footer{
+    text-align: center;
+    font-size: 30px;
+    margin: 15px;
+
+}
+.csokifa{
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    float: left;
+
+}
+h1{
+    font-size: 180%;
+    text-transform: uppercase;
+    text-align: right;
+    border-bottom: 2px dotted rgb(59, 36,13);
+}
+
+#bevezető{
+    font-style: italic;
+    text-align: justify;
+    
+}
